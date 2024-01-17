@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=McLaren" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="icon" type="x-icon" href="main/gorderlogo.jpg">
+    <title>G-Order | Home</title>
+
+</head>
+<body>
+    <div id="media_block">
+
+    </div>
+    <img src="main/layer.png" alt="layer" id="layer">
+
+    <div id="media_header">
+        <img src="main/gorderlogo.jpg" alt="Logo" id="logo">
+        <a href="DE-de/index.html" style="display: flex; align-items: center;"><img src="main/DE.png" alt="german" id="language-de1"></a>
+        <img src="features/qa.png" alt="qa" onclick="opendesk()" id="qu">
+    </div>
+    
+    
+    <header id="header">
+        <img src="main/gorderlogo.jpg" alt="Logo">
+        <nav>
+            <ul>
+                <!--<li>Bots</li>-->
+                <!--<li>Projects</li>-->
+                <li onclick="opendesk()">Wie bestelle ich?</li>
+                <a href="https://discord.gg/TFjrjkgjS6"><li>Kontakt</li></a>
+            </ul>
+        </nav>
+    </header>
+    <a href="DE-de/index.html" style="display: flex; align-items: center;"><img src="main/DE.png" alt="german" id="language-de"></a>
+    <span id="ver">v1.1</span>
+
+    <div class="content">
+        <div id="title">
+            <h1>BESTELLE DEINEN BOT</h1>
+        </div>
+        <img src="main/profile.png" alt="profile" id="profile">
+        <div>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1189312969306275842&permissions=67584&scope=applications.commands+bot"><button id="orderbtn">Kostenlos bestellen</button></a>
+ 
+        </div>
+ 
+    </div>
+ 
+    <div id="features">
+        <h1>VIELE FUNKTIONEN</h1>
+        <div id="featbox">
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/slash.png" alt="slashcmd">
+                </div>
+ 
+                <h2>Slash-Befehle</h2>
+                <div class="feat-info">
+                    <p>Zeige deinen Nutzern was sie machen können! Mit den modernen Slash-Befehlen hast du die Kontrolle!</p>
+                </div>
+ 
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/buttons.png" alt="buttons" id="buttons">
+                </div>
+ 
+                <h2>Buttons</h2>
+                <div class="feat-info">
+                    <p>Gib deinen Nutzern etwas zu klicken! Ein einfacher Weg um Rollen, Farben und mehr anzupassen!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/online.png" alt="247online">
+                </div>
+ 
+                <h2>24/7 Online</h2>
+                <div class="feat-info">
+                    <p>Dein Bot wird 24 Stunden und 7 Tage die Woche gehostet!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/embeds.png" alt="embeds" id="embeds">
+                </div>
+                <h2>Einbettungen</h2>
+                <div class="feat-info">
+                    <p>Bekomme wunderschöne Einbettungen mit deinen Texten, Bildern, Buttons, Emojis und mehr!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/reactions.png" alt="reactions" id="reactions">
+                </div>
+                <h2>Reaktionen</h2>
+                <div class="feat-info">
+                    <p>Lass deinen Bot auf die Nachrichten der Nutzer reagieren! Mit Emojis, Nachrichten oder noch viel mehr!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/notification.png" alt="notifications">
+                </div>
+                <h2>Benachrichtigungen</h2>
+                <div class="feat-info">
+                    <p>Sende Neuigkeiten, Nachrichten und viel mehr, mit deinen Eingaben. Lass dich auch über Vorgänge und Entwicklungen informieren!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/membercounter.png" alt="counter">
+                </div>
+                <h2>Mitgliederzahlen</h2>
+                <div class="feat-info">
+                    <p>Lass den Bot stets die Mitglieder deines Servers zählen und zeige sie her!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/verify.png" alt="verify">
+                </div>
+                <h2>Verifizierungssystem</h2>
+                <div class="feat-info">
+                    <p>Schütze deinen Server mit einem personalisierten Verifizierungssystem! Nutzer können erst schreiben nachdem sie die Regeln akzeptiert haben.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgs">
+                    <img src="features/secure.png" alt="secure">
+                </div>
+                <h2>Mod-System</h2>
+                <div class="feat-info">
+                    <p>Der Bot blockiert Links, Schimpfwörter und mehr. Schütze deine Nutzer!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="plan">
+        <h1 id="planh">Grab a plan</h1>
+        <div id="plansdiv">
+            <div id="free">
+                <h1>FREE</h1>
+                <div id="plancontent">
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>24/7 Hosting</span>
+                    </div>
+ 
+                <div id="plancontent">
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>(5) eigene Befehle</span>
+                    </div>
+ 
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Begrenzte Buttons</span>
+                    </div>
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Einbettungen</span>
+                    </div>
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Mitgliederzahlen</span>
+                    </div>
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Eigener Status</span>
+                    </div>
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Reaktionen</span>
+                    </div>
+                    <div class="planitems">
+                        <img src="plan/check.png" alt=""><span>Eigenes Profilbild</span>
+                    </div>
+                </div>
+            </div>
+            <h1>DU BRAUCHST</h1>
+            <div id="plancontent">
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>einen eigenen Discord Server</span>
+                </div>
+ 
+            </div>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1189312969306275842&permissions=67584&scope=applications.commands+bot"><button id="planorder">BESTELLEN</button></a>  
+ 
+        </div>
+        <div id="support">
+            <h1>SUPPORT</h1>
+            <div id="plancontent">
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>24/7 Hosting</span>
+                </div>
+ 
+            <div id="plancontent">
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>(20) eigene Befehle</span>
+                </div>
+ 
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Unendliche Buttons</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Einbettungen</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Mitgliederzahlen</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>eigener Status</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Eigene Beschreibung</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>einfaches Mod System</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Social Media Nachrichten</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Verifizierungssystem</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Reaktionen</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>eigenes Profilbild</span>
+                </div>
+                <div class="planitems">
+                    <img src="plan/check.png" alt=""><span>Priorisierter Support</span>
+                </div>
+            </div>
+        </div>
+        <h1>DU BRAUCHST</h1>
+        <div id="plancontent">
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>einen eigenen Discord Server</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>mehr als 300 Mitglieder</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>einen Kanal für meine Werbung</span>
+            </div>
+ 
+        </div>
+        <a href="https://discord.gg/TFjrjkgjS6"><button id="planrequest">ANFRAGEN</button></a>
+ 
+    </div>
+    <div id="pro">
+        <h1>PRO</h1>
+        <div id="plancontent">
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>24/7 Hosting</span>
+            </div>
+ 
+        <div id="plancontent">
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigene Befehle</span>
+            </div>
+ 
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Unendliche Buttons</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Einbettungen</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Mitgliederzahlen</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigener Status</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigene Beschreibung</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigenes Mod-System</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Social Media Benachrichtigungen</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Verifizierungssystem</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Reaktionen</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigenes Profilbild</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Priorisierter Technik-Support</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>eigenes Ticket-System</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Fortgeschrittenes Moderationssystem</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Log-Funktion</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Kontinuierliche funktionale Verbesserung</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Vorrangige Wartung</span>
+            </div>
+            <div class="planitems">
+                <img src="plan/check.png" alt=""><span>Hinzufügen von gewünschten Funktionen auch nach Bestellung</span>
+            </div>
+        </div>
+    </div>
+    <h1>DU BRAUCHST</h1>
+    <div id="plancontent">
+        <div class="planitems">
+            <img src="plan/check.png" alt=""><span>ein eigener Discord Server</span>
+        </div>
+        <div class="planitems">
+            <img src="plan/check.png" alt=""><span>mehr als 1000 Mitglieder</span>
+        </div>
+        <div class="planitems">
+            <img src="plan/check.png" alt=""><span>einen Kanal für meine Werbung</span>
+        </div>
+        <div class="planitems">
+            <img src="plan/check.png" alt=""><span>5 weitere Interessenten</span>
+        </div>
+ 
+    </div>
+    <a href="https://discord.gg/TFjrjkgjS6"><button id="planrequest">ANFRAGEN</button></a>
+ 
+</div>
+<div id="footer">
+    <div>
+        <p id="imprint" onclick="openimprint()">Imprint</p> <span>Die Nutzung dieses Dienstes ist völlig kostenlos. Wir werden nie nach Geld oder Passwörtern fragen</span>
+    </div>
+</div>
+ 
+    </div>
+    <div id="black"></div>
+    <div id="helpdesk">
+        <img src="main/close.png" alt="close" id="close" onclick="closedesk()">
+        <h1>Wie bestelle ich kostenlos?</h1>
+        <p>1) Klicken Sie auf den großen grünen Button, um die Bestellung zu starten.</p>
+        <p>2) Du wirst von discord auf eine Bot-Einladungsseite weitergeleitet</p>
+        <p>3) Lade den Bot auf deinen eigenen Discord-Server ein (er braucht nur die Berechtigung zum Senden und Lesen von Nachrichten)</p>
+        <p>4) Sobald der Bot auf deinem Server ist, gib /order ein</p>
+        <p>5) Herzlichen Glückwunsch! Der Bestellvorgang hat in deinem dms begonnen. Bitte beantworte alle Fragen</p>
+    </div>
+    <div id="imprintdiv">
+        <img src="main/close.png" alt="close" id="close2" onclick="closeimprint()">
+        <h1>Imprint</h1>
+        <h3>Verantwortlich für den Inhalt:</h3>
+        <p>TheGreenCraft (Nutzername)</p>
+        <h3>Kontakt:</h3>
+        <p>E-Mail: th3greencraft@gmail.com</p>
+        <p>Discord: thegreencraft</p>
+        <h3>Haftungsnachweis:</h3>
+        <p>Die Informationen auf dieser Website dienen nur zu Informationszwecken und repräsentieren kein formelles Unternehmen. Diese Website hat keine kommerziellen Absichten.</p>
+        <p>Von g-order.2ix.de werden keine Daten gespeichert. Man wird nie zu einem Kauf oder Ähnlichem geleitet.</p>
+        <h3>Dritte:</h3>
+        <p>Diese wird über den kostenlosen Webspace von www.lima-city.de gehostet.</p>
+
+    </div>
+    <div id="loadblack"></div>
+    <div class="three-body" id="loader">
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        </div>
+
+    
+</body>
+<script src="scripts.js"></script>
+</html>
